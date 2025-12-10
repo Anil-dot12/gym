@@ -17,7 +17,7 @@
     height: 100vh;
     padding: 100px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     background: #111;
     transition: 0.5s;
@@ -62,15 +62,16 @@ section video {
 
 .text {
     
-    position: left;
+    position: relative;
     z-index: 10;
     margin-top: 40px;
+    text-align: left;
 }
 
 .text h2 {
     font-family: "Libre Baskerville", serif;
-    font-size: 6em;
-    font-weight: 800;
+    font-size: 3em;
+    font-weight: 700;
     line-height: 1em;
     color: #fff;
     text-transform: uppercase;
@@ -78,8 +79,8 @@ section video {
 
 .text h3 {
     font-family: "Playfair Display", serif;
-    font-size: 4em;
-    font-weight: 700;
+    font-size: 2em;
+    font-weight: 500;
     color: #fff;
     line-height: 1em;
     text-transform: uppercase;
